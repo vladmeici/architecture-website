@@ -1,0 +1,68 @@
+
+.font-large {
+  font-size: calc(3.89vw + 13.33px);
+}
+
+.font-cat {
+  font-size: calc(2.46vw + 16.59px);
+}
+
+.font-dog {
+  font-size: calc(1.97vw + 18.07px);
+}
+
+.font-fish {
+  font-size: calc(1.97vw + 10.07px);
+}
+
+.font-wolf {
+  font-size: calc(1.48vw + 11.55px);
+}
+
+.font-lion {
+  font-size: calc(0.61vw + 20.14px);
+}
+
+.font-tiger {
+  font-size: calc(0.98vw + 13.03px);
+}
+
+.font-medium {
+  font-size: calc(0.24vw + 19.25px);
+}
+
+.font-small {
+  font-size: calc(0.37vw + 16.88px);
+}
+
+.font-small-2 {
+  font-size: calc(0.61vw + 12.14px);
+}
+
+.font-small-3 {
+  font-size: calc(0.3vw + 15.07px);
+}
+
+.font-small-4 {
+  font-size: calc(0.24vw + 13.25px);
+}
+
+.font-small-5 {
+  font-size: calc(0.68vw + 7.9px);
+}
+
+.font-extra-small {
+  font-size: calc(0.12vw + 13.62px);
+}
+
+.font-extra-small-2 {
+  font-size: calc(0.12vw + 11.62px);
+}
+
+.font-extra-small-3 {
+  font-size: calc(0.24vw + 11.25px);
+}
+
+.font-extra-small-4 {
+  font-size: calc(0.37vw + 8.88px);
+}

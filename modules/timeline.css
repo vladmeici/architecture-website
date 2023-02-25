@@ -1,0 +1,29 @@
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.timeline-block p{
+    margin-right: 32px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    color: #F4F7F8;
+    user-select: none;
+}
+
+.step {
+    width: 16px;
+    height: 3px;
+    background-color: #FFFFFF;
+    margin-top: 8px;
+    opacity: 0.3;
+}
