@@ -1,5 +1,7 @@
 body {
     overflow-y: scroll;
+    overflow-x: hidden;
+    user-select:none;
 }
 
 .container {
@@ -14,6 +16,17 @@ body {
 .roboto-medium {
   font-family: 'Roboto';
   font-weight: 400;
+}
+.roboto-bold {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+}
+p {
+  margin:0 !important;
 }
 
 #Test1, #Test2, #Test3, #Test4 {
