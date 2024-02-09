@@ -1,0 +1,515 @@
+.meir-img img {
+    max-width: unset;
+  }
+
+@media only screen and (max-width: 300px) {
+    #PHILOSOPHY {
+        min-height: 100vh;
+    }
+
+
+    .popout-1-div,
+    .popout-2-div,
+    .popout-3-div {
+        position: relative !important;
+        margin:5vw;
+    }
+
+    .popout-1,
+    .popout-2,
+    .popout-3 {
+        display: flex;
+        opacity: 1 !important;
+    }
+
+    .plus-button-1 svg,
+    .plus-button-2 svg,
+    .plus-button-3 svg {
+        display: none;
+    }
+
+    .popout-1-div h4,
+    .popout-2-div h4,
+    .popout-3-div h4 {
+        font-size: 1rem;
+    }
+
+    .popout-1-div h5,
+    .popout-2-div h5,
+    .popout-3-div h5 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 400px) {
+    #PHILOSOPHY {
+        min-height: 100vh;
+        height: 1000px;
+    }
+
+    .popout-1-div {
+        position: absolute;
+        bottom: 380px;
+        left: 10vw;
+    }
+
+    .popout-2-div {
+        position: absolute;
+        flex-direction: row-reverse;
+        bottom: 230px;
+        right: 10vw;
+    }
+
+    .popout-3-div {
+        position: absolute;
+        flex-direction: row-reverse;
+        bottom: 70px;
+        left: 10vw;
+    }
+
+    .plus-button-1 svg {
+        width: 100px;
+    }
+
+    .plus-button-2 svg {
+        width: 100px;
+    }
+
+    .plus-button-3 svg {
+        width: 100px;
+    }
+    .popout-1-div h4,
+    .popout-2-div h4,
+    .popout-3-div h4 {
+        font-size: 1rem;
+    }
+
+    .popout-1-div h5,
+    .popout-2-div h5,
+    .popout-3-div h5 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 575px) {
+    #PHILOSOPHY {
+        min-height: 100vh;
+        height: 1000px;
+    }
+
+    .popout-1-div {
+        position: absolute;
+        bottom: 420px;
+        left: 10vw;
+    }
+
+    .popout-2-div {
+        position: absolute;
+        flex-direction: row-reverse;
+        bottom: 270px;
+        right: 10vw;
+    }
+
+    .popout-3-div {
+        position: absolute;
+        flex-direction: row-reverse;
+        bottom: 120px;
+        left: 10vw;
+    }
+
+    .plus-button-1 svg {
+        width: 100px;
+    }
+
+    .plus-button-2 svg {
+        width: 100px;
+    }
+
+    .plus-button-3 svg {
+        width: 100px;
+    }
+    .popout-1-div h4,
+    .popout-2-div h4,
+    .popout-3-div h4 {
+        font-size: 1rem;
+    }
+
+    .popout-1-div h5,
+    .popout-2-div h5,
+    .popout-3-div h5 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    #PHILOSOPHY {
+        min-height: 100vh;
+        height: 1200px;
+    }
+
+    .popout-1-div {
+        position: absolute;
+        bottom: 450px;
+        left: 10vw;
+    }
+
+    .popout-2-div {
+        position: absolute;
+        flex-direction: row-reverse;
+        bottom: 300px;
+        right: 10vw;
+    }
+
+    .popout-3-div {
+        position: absolute;
+        flex-direction: row-reverse;
+        bottom: 150px;
+        left: 10vw;
+    }
+
+    .plus-button-1 svg {
+        width: 100px;
+    }
+
+    .plus-button-2 svg {
+        width: 100px;
+    }
+
+    .plus-button-3 svg {
+        width: 100px;
+    }
+    .popout-1-div h4,
+    .popout-2-div h4,
+    .popout-3-div h4 {
+        font-size: 1rem;
+    }
+
+    .popout-1-div h5,
+    .popout-2-div h5,
+    .popout-3-div h5 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    #PHILOSOPHY {
+        min-height: 100vh;
+        height: 1300px;
+    }
+
+    .popout-1-div {
+        position: absolute;
+        bottom: 450px;
+        left: 10vw;
+    }
+
+    .popout-2-div {
+        position: absolute;
+        flex-direction: row-reverse;
+        bottom: 300px;
+        right: 10vw;
+    }
+
+    .popout-3-div {
+        position: absolute;
+        flex-direction: row-reverse;
+        bottom: 150px;
+        left: 10vw;
+    }
+
+    .plus-button-1 svg {
+        width: 100px;
+    }
+
+    .plus-button-2 svg {
+        width: 100px;
+    }
+
+    .plus-button-3 svg {
+        width: 100px;
+    }
+    .popout-1-div h4,
+    .popout-2-div h4,
+    .popout-3-div h4 {
+        font-size: 1rem;
+    }
+
+    .popout-1-div h5,
+    .popout-2-div h5,
+    .popout-3-div h5 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    #PHILOSOPHY {
+        min-height: 100vh;
+        height: 1500px;
+    }
+
+    .popout-1-div {
+        position: absolute;
+        bottom: 550px;
+        left: 18vw;
+    }
+
+    .popout-2-div {
+        position: absolute;
+        flex-direction: row;
+        bottom: 350px;
+        left: 5vw;
+    }
+
+    .popout-3-div {
+        position: absolute;
+        flex-direction: row;
+        bottom: 150px;
+        left: 50vw;
+    }
+
+    .plus-button-1 svg {
+        width: 100px;
+    }
+
+    .plus-button-2 svg {
+        width: 100px;
+    }
+
+    .plus-button-3 svg {
+        width: 100px;
+    }
+    .popout-1-div h4,
+    .popout-2-div h4,
+    .popout-3-div h4 {
+        font-size: 1rem;
+    }
+
+    .popout-1-div h5,
+    .popout-2-div h5,
+    .popout-3-div h5 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1399px) {
+    #PHILOSOPHY {
+        min-height: 100vh;
+        height: 1700px;
+    }
+
+    .popout-1-div {
+        position: absolute;
+        bottom: 550px;
+        left: 18vw;
+    }
+
+    .popout-2-div {
+        position: absolute;
+        flex-direction: row;
+        bottom: 350px;
+        left: 5vw;
+    }
+
+    .popout-3-div {
+        position: absolute;
+        flex-direction: row;
+        bottom: 150px;
+        left: 50vw;
+    }
+
+    .plus-button-1 svg {
+        width: 100px;
+    }
+
+    .plus-button-2 svg {
+        width: 100px;
+    }
+
+    .plus-button-3 svg {
+        width: 100px;
+    }
+    .popout-1-div h4,
+    .popout-2-div h4,
+    .popout-3-div h4 {
+        font-size: 1rem;
+    }
+
+    .popout-1-div h5,
+    .popout-2-div h5,
+    .popout-3-div h5 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width:1799px) {
+    #PHILOSOPHY {
+        min-height: 100vh;
+        height: 1700px;
+    }
+
+    .popout-1-div {
+        position: absolute;
+        bottom: 650px;
+        left: 18vw;
+    }
+
+    .popout-2-div {
+        position: absolute;
+        flex-direction: row;
+        bottom: 450px;
+        left: 5vw;
+    }
+
+    .popout-3-div {
+        position: absolute;
+        flex-direction: row;
+        bottom: 250px;
+        left: 50vw;
+    }
+
+    .plus-button-1 svg {
+        width: 100px;
+    }
+
+    .plus-button-2 svg {
+        width: 100px;
+    }
+
+    .plus-button-3 svg {
+        width: 100px;
+    }
+    .popout-1-div h4,
+    .popout-2-div h4,
+    .popout-3-div h4 {
+        font-size: 1rem;
+    }
+
+    .popout-1-div h5,
+    .popout-2-div h5,
+    .popout-3-div h5 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 1800px) and (max-width:2399px) {
+    #PHILOSOPHY {
+        min-height: 100vh;
+        height: 1700px;
+    }
+
+    .popout-1-div {
+        position: absolute;
+        bottom: 650px;
+        left: 28vw;
+    }
+
+    .popout-2-div {
+        position: absolute;
+        flex-direction: row;
+        bottom: 450px;
+        left: 20vw;
+    }
+
+    .popout-3-div {
+        position: absolute;
+        flex-direction: row;
+        bottom: 250px;
+        left: 55vw;
+    }
+
+    .plus-button-1 svg {
+        width: 100px;
+    }
+
+    .plus-button-2 svg {
+        width: 100px;
+    }
+
+    .plus-button-3 svg {
+        width: 100px;
+    }
+    .popout-1-div h4,
+    .popout-2-div h4,
+    .popout-3-div h4 {
+        font-size: 1rem;
+    }
+
+    .popout-1-div h5,
+    .popout-2-div h5,
+    .popout-3-div h5 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+    #PHILOSOPHY {
+        min-height: 100vh;
+        height: 1900px;
+    }
+
+    .popout-1-div {
+        position: absolute;
+        bottom: 650px;
+        left: 28vw;
+    }
+
+    .popout-2-div {
+        position: absolute;
+        flex-direction: row;
+        bottom: 450px;
+        left: 20vw;
+    }
+
+    .popout-3-div {
+        position: absolute;
+        flex-direction: row;
+        bottom: 250px;
+        left: 55vw;
+    }
+
+    .plus-button-1 svg {
+        width: 100px;
+    }
+
+    .plus-button-2 svg {
+        width: 100px;
+    }
+
+    .plus-button-3 svg {
+        width: 100px;
+    }
+    .popout-1-div h4,
+    .popout-2-div h4,
+    .popout-3-div h4 {
+        font-size: 1rem;
+    }
+
+    .popout-1-div h5,
+    .popout-2-div h5,
+    .popout-3-div h5 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 2472px) {
+
+    .meir-img {
+      left: 0 !important;
+    }
+  
+    .meir-img img {
+      width: 100vw;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1720px) {
+    .meir-img {
+      left: -3vw !important;
+    }
+  
+    .meir-img img {
+      width: 130vw;
+    }
+  
+  }

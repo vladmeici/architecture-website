@@ -1,0 +1,139 @@
+@media only screen and (max-width: 575px) {
+    #GREATMIND {
+      height: unset;
+    }
+    .great-mind-content p {
+      font-size:1rem;
+    }
+    .great-mind-content {
+      padding: 5vw;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width:767px) {
+    #GREATMIND {
+      height: unset;
+    }
+    .great-mind-content p {
+      font-size:1.5rem;
+    }
+    .great-mind-content {
+      padding: 5vw;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width:991px) {
+    #GREATMIND {
+      height: unset;
+    }
+    .great-mind-content p {
+      font-size:1.5rem;
+    }
+    .great-mind-content {
+      padding: 5vw;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width:1199px) {
+    #GREATMIND {
+      height: unset;
+    }
+    .great-mind-content p {
+      font-size:1.5rem;
+    }
+    .great-mind-content h1 {
+      font-size:3rem;
+    }
+    .great-mind-content {
+      padding: 5vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) and (max-width:1399px) {
+    #GREATMIND {
+      height: unset;
+    }
+    .great-mind-content p {
+      font-size:1.5rem;
+    }
+    .great-mind-content h1 {
+      font-size:3rem;
+    }
+    .great-mind-content {
+      padding: 5vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1400px) and (max-width:1799px) {
+  
+    #GREATMIND {
+      height: 90vw;
+    }
+  
+    .great-mind-content {
+      width:50vw;
+      padding: 5vw;
+    }
+    
+    .great-mind-content p {
+      font-size:1.5rem;
+    }
+    .great-mind-content h1 {
+      font-size:3rem;
+    }
+  
+    .great-mind {
+      position: absolute;
+      right: -200px;
+      width: 60vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1800px) and (max-width:2399px) {
+    #GREATMIND {
+      height: 90vw;
+    }
+  
+    .great-mind-content {
+      width:50vw;
+      padding: 5vw;
+    }
+    
+    .great-mind-content p {
+      font-size:1.5rem;
+    }
+    .great-mind-content h1 {
+      font-size:3rem;
+    }
+  
+    .great-mind {
+      position: absolute;
+      right: -200px;
+      width: 60vw;
+    }
+  }
+  
+  @media only screen and (min-width: 2400px){
+  
+    #GREATMIND {
+      height: 80vw;
+    }
+  
+    .great-mind-content {
+      width:50vw;
+      padding: 5vw;
+    }
+    
+    .great-mind-content p {
+      font-size:1.5rem;
+    }
+    .great-mind-content h1 {
+      font-size:3rem;
+    }
+  
+    .great-mind {
+      position: absolute;
+      right: -200px;
+      width: 60vw;
+    }
+  }

@@ -1,0 +1,226 @@
+section {
+    height: 500vh;
+    position: relative;
+}
+
+.pin {
+    position: relative;
+    height: 100vh;
+}
+
+.plan {
+    position: absolute;
+    top:0;
+    /* top: 50%;
+    transform: translateY(-50%); */
+}
+
+@media only screen and (max-width: 575px) {
+    #PLANS .go-classic-btn {
+        bottom:50px;
+    }
+    .pin {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+    }
+    .plan-step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 2;
+        padding:10vw;
+        bottom:150px;
+    }
+    
+    .plan-step img{
+        width: 120px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    #PLANS .go-classic-btn {
+        bottom:50px;
+    }
+    .pin {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+    }
+    .plan-step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 2;
+        padding:10vw;
+        bottom:150px;
+    }
+    
+    .plan-step img{
+        width: 120px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    #PLANS .go-classic-btn {
+        bottom:50px;
+    }
+    .pin {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+    }
+    .plan-step {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        z-index: 2;
+        padding:10vw;
+        bottom:150px;
+    }
+    
+    .plan-step img{
+        width: 120px;
+        margin-right:2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    #PLANS .go-classic-btn {
+        bottom:50px;
+    }
+    .pin {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+    }
+    .plan-step {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        z-index: 2;
+        padding:10vw;
+        bottom:150px;
+    }
+    
+    .plan-step img{
+        width: 120px;
+        margin-right:2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1399px) {
+    #PLANS .go-classic-btn {
+        bottom:50px;
+        right: 50px;
+    }
+    .pin {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+    }
+    .plan-step {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        z-index: 2;
+        max-width: 70vw;
+        bottom:50px;
+        left:50px;
+    }
+    
+    .plan-step img{
+        width: 120px;
+        margin-right:2rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width:1799px) {
+    #PLANS .go-classic-btn {
+        bottom:50px;
+        right: 50px;
+    }
+    .pin {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+    }
+    .plan-step {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        z-index: 2;
+        max-width: 70vw;
+        bottom:50px;
+        left:100px;
+    }
+    
+    .plan-step img{
+        width: 120px;
+        margin-right:2rem;
+    }
+}
+
+@media only screen and (min-width: 1800px) and (max-width:2399px) {
+    #PLANS .go-classic-btn {
+        bottom:50px;
+        right: 50px;
+    }
+    .pin {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+    }
+    .plan-step {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        z-index: 2;
+        max-width: 50vw;
+        bottom:50px;
+        left:400px;
+    }
+    
+    .plan-step img{
+        width: 120px;
+        margin-right:2rem;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+    #PLANS .go-classic-btn {
+        bottom:50px;
+        right: 50px;
+    }
+    .pin {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+    }
+    .plan-step {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        z-index: 2;
+        max-width: 50vw;
+        bottom:50px;
+        left:400px;
+    }
+    
+    .plan-step img{
+        width: 120px;
+        margin-right:2rem;
+    }
+}

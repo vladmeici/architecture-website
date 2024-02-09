@@ -1,0 +1,239 @@
+@media only screen and (max-width: 400px) {
+    .process-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 15vw 5vw;
+        font-size:16px;
+    }
+    #PROCESS .title h1 {
+        font-size: 1.5rem;
+        width:80vw;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 575px) {
+    .process-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 15vw 5vw;
+        font-size:16px;
+    }
+    #PROCESS .title h1 {
+        font-size: 1.5rem;
+        width:65vw;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .process-item {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin: 20vw 5vw;
+        font-size:16px;
+    }
+    #PROCESS .title h1 {
+        font-size: 2rem;
+        width:60vw;
+    }
+
+    .process-text {
+        position: relative;
+    }
+    .process-number {
+        position: absolute;
+        top:-60px;
+    }
+
+    .process-item img {
+        min-width: 250px;
+        padding-right:32px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .process-item {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin: 15vw 5vw;
+        font-size:16px;
+    }
+    #PROCESS .title h1 {
+        font-size: 3rem;
+        width:62vw;
+    }
+
+    .process-text {
+        position: relative;
+    }
+    .process-number {
+        position: absolute;
+        top:-60px;
+    }
+
+    .process-item img {
+        min-width: 250px;
+        padding-right:32px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .process-content {
+        display: flex;
+    }
+    #PROCESS .title h1 {
+        font-size: 3rem;
+        width:50vw;
+    }
+    .process-item {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin: 10vw 5vw;
+        font-size:16px;
+    }
+
+    .process-text {
+        position: relative;
+    }
+    .process-number {
+        position: absolute;
+        top:-60px;
+    }
+
+    .process-item img {
+        min-width: 200px;
+        padding-right:32px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1399px) {
+    .process-content {
+        display: flex;
+    }
+    
+    #PROCESS .title h1 {
+        font-size: 3rem;
+        width:40vw;
+    }
+    .process-item {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin: 10vw 5vw;
+        font-size:16px;
+    }
+
+    .process-text {
+        position: relative;
+    }
+    .process-number {
+        position: absolute;
+        top:-60px;
+    }
+
+    .process-item img {
+        min-width: 250px;
+        padding-right:32px;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width:1799px) {
+    .process-content {
+        display: flex;
+    }
+    #PROCESS .title h1 {
+        font-size: 4.5rem;
+        width:50vw;
+    }
+    .process-item {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin: 10vw 5vw;
+        font-size:16px;
+    }
+
+    .process-text {
+        position: relative;
+        max-width: 279px;
+    }
+    .process-number {
+        position: absolute;
+        top:-60px;
+    }
+
+    .process-item img {
+        max-width: 200px;
+        padding-right:32px;
+    }
+}
+
+@media only screen and (min-width: 1800px) and (max-width:2399px) {
+    .process-content {
+        display: flex;
+    }
+    #PROCESS .title h1 {
+        font-size: 4.5rem;
+        width:50vw;
+    }
+    .process-item {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin: 5vw 5vw;
+        font-size:16px;
+    }
+
+    .process-text {
+        position: relative;
+        max-width: 279px;
+    }
+    .process-number {
+        position: absolute;
+        top:-60px;
+    }
+
+    .process-item img {
+        max-width: 200px;
+        padding-right:32px;
+    }
+}
+
+@media only screen and (min-width: 2400px){
+    .process-content {
+        display: flex;
+    }
+    #PROCESS .title h1 {
+        font-size: 4.5rem;
+        width:50vw;
+    }
+    .process-item {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin: 5vw 5vw;
+        font-size:16px;
+    }
+
+    .process-text {
+        position: relative;
+        max-width: 279px;
+    }
+    .process-number {
+        position: absolute;
+        top:-60px;
+    }
+
+    .process-item img {
+        max-width: 200px;
+        padding-right:32px;
+    }
+}

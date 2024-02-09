@@ -1,0 +1,12 @@
+{
+    "rules": [
+        {
+            "match": "*.js",
+            "folder": "scripts"
+        },
+        {
+            "match": "*.{jpg,png,gif,svg}",
+            "folder": "assets"
+        }
+    ]
+}
